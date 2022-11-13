@@ -16,7 +16,7 @@ public class resultDao {
 
         try {
             String sql;
-            sql = "insert into word_count (word, count) values (?, ?)";
+            sql = "insert into word_count (word, count) values (?, ?) ON DUPLICATE KEY UPDATE count=count + ?";
             pstmt = conn.prepareStatement(sql);
             for(resultDto result : resultList) {
                 //PreparedStatement 객체의 참조값 얻어오기
@@ -24,6 +24,7 @@ public class resultDao {
                 //? 에 필요한값 바인딩하기
                 pstmt.setString(1, result.getWord());
                 pstmt.setInt(2, result.getCount());
+                pstmt.setInt(3, result.getCount());
                 //sql 문 실행하기 (INSERT, UPDATE, DELETE)
                 pstmt.executeUpdate();
             }

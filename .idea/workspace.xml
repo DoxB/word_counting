@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="606e6ed4-ec3d-4f95-973f-9b55e2f6cd59" name="변경" comment="Ver 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/resultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/resultDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,11 @@
     &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -81,6 +87,8 @@
       <updated>1668274042288</updated>
       <workItem from="1668274043523" duration="29410000" />
       <workItem from="1668361805631" duration="920000" />
+      <workItem from="1668363543190" duration="240000" />
+      <workItem from="1668412445671" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1668350430195</created>

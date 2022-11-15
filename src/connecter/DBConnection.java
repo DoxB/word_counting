@@ -1,4 +1,4 @@
-package dao;
+package connecter;
 
 import java.sql.*;
 
@@ -9,17 +9,20 @@ public class DBConnection {
     String USER_NAME = "tempuser"; //DB에 접속할 사용자 이름
     String PASSWORD = "qwe123!@#"; //사용자의 비밀번호
 
-    //접속부
+    //DB 접속부
     public Connection getConnection() {
+        System.out.println("----------------------------------------------");
+        System.out.println("Connection Results to distribute_database");
+        System.out.println("----------------------------------------------");
         Connection conn = null; //connection 객체
         try {
             Class.forName(JDBC_DRIVER);
             conn = DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
-
+            System.out.println("1. Succeeded to connect distribute_database!");
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("1. Failed to connect distribute_database! (ClassNotFoundException)");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("1. Failed to connect distribute_database! (SQLException)");
         }
         return conn;
     }

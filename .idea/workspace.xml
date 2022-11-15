@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606e6ed4-ec3d-4f95-973f-9b55e2f6cd59" name="변경" comment="Ver 1.0">
+    <list default="true" id="606e6ed4-ec3d-4f95-973f-9b55e2f6cd59" name="변경" comment="Ver 1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operation/Counting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connecter/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/rawDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/rawDataDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/resultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/resultDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,7 +91,9 @@
       <workItem from="1668274043523" duration="29410000" />
       <workItem from="1668361805631" duration="920000" />
       <workItem from="1668363543190" duration="240000" />
-      <workItem from="1668412445671" duration="522000" />
+      <workItem from="1668412445671" duration="4996000" />
+      <workItem from="1668499304899" duration="982000" />
+      <workItem from="1668508107552" duration="10789000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1668350430195</created>
@@ -97,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668350430195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ver 1.1">
+      <created>1668412993360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668412993360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ver 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0" />
+    <MESSAGE value="Ver 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.1" />
   </component>
 </project>

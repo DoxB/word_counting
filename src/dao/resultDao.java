@@ -1,6 +1,7 @@
 package dao;
 
 
+import connecter.DBConnection;
 import dto.resultDto;
 
 import java.sql.*;
@@ -9,7 +10,7 @@ import java.util.ArrayList;
 public class resultDao {
     private Connection conn = null;
 
-    public void insertResultList(ArrayList<resultDto> resultList) {
+    public void insertResultList(ArrayList<resultDto> resultDataList) {
         DBConnection dc = new DBConnection();
         conn = dc.getConnection(); //db 내의 데이터를 저장
         PreparedStatement pstmt = null;
@@ -17,9 +18,9 @@ public class resultDao {
         try {
             String sql;
             //최종 DB에 결과값이 있으면 현재 찾은 거 더하기
-            sql = "insert into word_count (word, count) values (?, ?) ON DUPLICATE KEY UPDATE count=count + ?";
+            sql = "insert into resultData (word, count) values (?, ?) ON DUPLICATE KEY UPDATE count=count + ?";
             pstmt = conn.prepareStatement(sql);
-            for(resultDto result : resultList) {
+            for(resultDto result : resultDataList) {
                 //PreparedStatement 객체의 참조값 얻어오기
                 pstmt = conn.prepareStatement(sql);
                 //? 에 필요한값 바인딩하기
@@ -31,19 +32,20 @@ public class resultDao {
             }
             pstmt.close();
             conn.close();
-
+            System.out.println("2. Succeeded to export resultData!");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("2. Failed to export resultData!");
         } finally {
             try{
                 if(pstmt != null)
                     pstmt.close();
                 if(conn != null)
                     conn.close();
+                System.out.println("3. Succeeded to disconnect distribute_database!");
             } catch(SQLException e){
-                e.printStackTrace();
+                System.out.println("3. Failed to disconnect distribute_database!");
             }
-
         }
+        System.out.println("----------------------------------------------");
     }
 }

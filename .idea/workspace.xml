@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="word_counting:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606e6ed4-ec3d-4f95-973f-9b55e2f6cd59" name="변경" comment="Ver 1.1">
+    <list default="true" id="606e6ed4-ec3d-4f95-973f-9b55e2f6cd59" name="변경" comment="Ver 1.1&#10;add RMI">
+      <change afterPath="$PROJECT_DIR$/src/RMI/RemoteInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/RemoteServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/WordCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operation/Counting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connecter/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connecter/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connecter/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/rawDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/rawDataDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/resultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/resultDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word_counting.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +36,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="distribute_server" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="6ee6b3f8-4e2d-4aaa-b55d-266137d5702f" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,14 +60,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DoxB/Desktop/프로젝트_자바/word_counting/lib/mariadb-java-client-3.0.9.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bangw/OneDrive/바탕 화면/JAVA_workspace/distribute_server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -63,20 +82,21 @@
       <recent name="dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bangw\OneDrive\바탕 화면\JAVA_workspace\word_counting\src\RMI" />
       <recent name="C:\Users\DoxB\Desktop\프로젝트_자바\word_counting\lib" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="word_counting" />
+      <module name="distribute_server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +114,16 @@
       <workItem from="1668412445671" duration="4996000" />
       <workItem from="1668499304899" duration="982000" />
       <workItem from="1668508107552" duration="10789000" />
+      <workItem from="1668531416220" duration="261000" />
+      <workItem from="1668531681150" duration="4000" />
+      <workItem from="1668568598672" duration="11000" />
+      <workItem from="1668570774621" duration="24000" />
+      <workItem from="1668589453757" duration="14029000" />
+      <workItem from="1668624733877" duration="9000" />
+      <workItem from="1668624763524" duration="956000" />
+      <workItem from="1668626208050" duration="218000" />
+      <workItem from="1668628163753" duration="740000" />
+      <workItem from="1668689751400" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1668350430195</created>
@@ -120,7 +150,44 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/distribute_server" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/distribute_server" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -129,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ver 1.0" />
     <MESSAGE value="Ver 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.1" />
+    <MESSAGE value="Ver 1.1&#10;add RMI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.1&#10;add RMI" />
   </component>
 </project>

@@ -1,6 +1,5 @@
 package operation;
 
-import dto.rawDataDto;
 import dto.resultDto;
 
 import java.util.ArrayList;

@@ -12,7 +12,7 @@ public class resultDao {
 
     public void insertResultList(ArrayList<resultDto> resultDataList) {
         DBConnection dc = new DBConnection();
-        conn = dc.getConnection("172.18.0.6","3307"); //db 내의 데이터를 저장
+        conn = dc.getConnection("bangwol08.iptime.org","50025"); //db 내의 데이터를 저장
         PreparedStatement pstmt = null;
 
         try {

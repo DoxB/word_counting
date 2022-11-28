@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="effa820b-dd26-44ef-8de6-41d853fd5c9f" name="변경" comment="Ver 1.2 Filtering 수정">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/enposta_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word_counting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="effa820b-dd26-44ef-8de6-41d853fd5c9f" name="변경" comment="Ver 1.3&#10;단일 서버테스트용 복구, 형태소 분석 라이브러리 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RMI/RemoteInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RMI/RemoteServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RMI/WordCounting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/rawDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/rawDataDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/resultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/resultDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operation/Filtering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operation/Filtering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +31,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DoxB/Desktop/프로젝트_자바/word_counting/lib/mariadb-java-client-3.0.9.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DoxB/Desktop/프로젝트_자바/word_counting/lib/mariadb-java-client-3.0.9.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="operation" />
@@ -90,7 +80,11 @@
       <workItem from="1668694997315" duration="6667000" />
       <workItem from="1668761875776" duration="205000" />
       <workItem from="1669439808069" duration="771000" />
-      <workItem from="1669448035590" duration="13829000" />
+      <workItem from="1669448035590" duration="14418000" />
+      <workItem from="1669473127231" duration="1663000" />
+      <workItem from="1669611106257" duration="196000" />
+      <workItem from="1669611728472" duration="302000" />
+      <workItem from="1669663265264" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.2 Filtering 수정">
       <created>1668762067946</created>
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668762067946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ver 1.3&#10;단일 서버테스트용 복구, 형태소 분석 라이브러리 추가">
+      <created>1669472414926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669472414926</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ver 1.2 Filtering 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.2 Filtering 수정" />
+    <MESSAGE value="Ver 1.3&#10;단일 서버테스트용 복구, 형태소 분석 라이브러리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.3&#10;단일 서버테스트용 복구, 형태소 분석 라이브러리 추가" />
   </component>
 </project>
